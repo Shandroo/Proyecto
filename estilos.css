@@ -1,0 +1,105 @@
+h1{
+font-size: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-decoration-line: underline ;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    width: 8.5%;
+    height: 8.5%;
+}
+li{
+ font-family: 'Lucida Sans';
+ list-style: none;
+   
+}
+h2{
+font-family: 'Lucida Sans';
+background-color: rgb(255, 255, 59);   
+}
+h3{
+ border: 2px;
+ border-style: solid; 
+ text-align: center; 
+ box-shadow: 2px 2px 5px black;
+ }
+article{
+background-color:lightsalmon;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;    
+border: 1px;
+height: 450px;
+width: 350px;
+text-align: center;
+overflow: hidden;
+margin: 10px;
+border-radius: 5px;
+box-shadow: 2px 2px 5px black;
+}
+article:hover{
+    transform: scale(1.1);
+}
+.menu li:hover{
+    transform: scale(1.1);
+}
+footer{
+ font-family: 'Arial';
+ text-decoration-line:underline;
+ font-size:15px;
+ background-color: moccasin;
+ box-shadow: 2px 2px 5px black;
+}
+footer p a {
+    color: black;
+}
+a{
+ text-decoration: none; 
+ color: rgb(255, 255, 59) ;  
+}
+.menu a{
+    border: 2px solid black;
+    padding-left: 78.6px;
+    padding-right: 78.6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: brown;
+}
+a:hover{
+    color: mediumblue;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu ul{
+display:flex;
+flex-direction: row;
+justify-content: space-around; 
+background-color: moccasin; 
+padding-top: 8px;
+padding-bottom: 8px;  
+box-shadow: 2px 2px 5px black;
+}
+body {
+background-color: lightgrays;
+}
+
+@media only screen and (max-width: 768px) {
+    nav.menu ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+}
+
+@media (min-width:320px)  { 
+    body, table, p, img {
+        padding-right: 1em;
+        width: 100%;
+    }
+
+}
